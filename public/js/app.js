@@ -14,8 +14,8 @@ weatherForm.addEventListener('submit',(e)=>{
                 messageOne.textContent=data.error
             }
             else{
-                console.log(data.location)
-                console.log(data.forecast)
+                messageOne=data.location
+                messageTwo=data.forecast
             }
         })
     })
